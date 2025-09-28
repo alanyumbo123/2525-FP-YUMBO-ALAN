@@ -17,8 +17,8 @@ informacion_personal["ciudad"] = "Manabi"  # Cambiamos Tena por Manabi
 if "telefono" not in informacion_personal:
     informacion_personal["telefono"] = "0966372245"  # Agregamos el teléfono nuevo
 
-# 4 Eliminar la clave "edad" porque no es necesaria según la tarea
-del informacion_personal["edad"]
+# 4 Eliminar la clave "edad" porque no es necesaria
+del informacion_personal["edad"
 
 # 5 Imprimir el diccionario final
 print("Diccionario final:", informacion_personal)
