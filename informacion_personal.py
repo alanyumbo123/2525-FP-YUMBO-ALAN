@@ -1,0 +1,24 @@
+# Tarea: Trabajando con diccionarios en Python
+# Autor: Alan
+# Objetivo: Practicar creación, modificación, verificación y eliminación de datos en diccionarios
+
+# 1 Crear el diccionario con información inicial
+informacion_personal = {
+    "nombre": "Alan",         # Nombre de la persona
+    "edad": 20,               # Edad inicial
+    "ciudad": "Tena",         # Ciudad inicial
+    "profesion": "Estudiante" # Profesión
+}
+
+# 2 Modificar el valor de la ciudad
+informacion_personal["ciudad"] = "Manabi"  # Cambiamos Tena por Manabi
+
+# 3 Verificar si la clave "telefono" existe; si no, agregarla
+if "telefono" not in informacion_personal:
+    informacion_personal["telefono"] = "0966372245"  # Agregamos el teléfono nuevo
+
+# 4 Eliminar la clave "edad" porque no es necesaria
+del informacion_personal["edad"]
+
+# 5 Imprimir el diccionario final
+print("Diccionario final:", informacion_personal)
